@@ -1,0 +1,4 @@
+node_modules/
+#svg_minified/*
+.vscode/
+package-lock.json

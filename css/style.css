@@ -1,0 +1,75 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 60mm;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.QRcontainer {
+    width: 25mm;
+    height: 25mm;
+    margin: 0 auto;
+}
+
+.QR {
+    margin: 0;
+}
+
+.svg {
+    fill: #252525;
+}
+
+.icons {
+    width: 40mm;
+    height: 45mm;
+}
+
+.icons {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.icon {
+    height: 9mm;
+    width: 9mm;
+}
+
+#logo {
+    height: 45mm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoimg {
+    height: 9mm;
+}
